@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn button {
+  background-color: #0066ffd4;
+  color: white;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.dot {
+  background-color: gray;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotActive {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
