@@ -1,0 +1,25 @@
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1230px;
+}
+
+img {
+  width: 400px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn button {
+  background-color: #0066ffd4;
+  color: white;
+}
